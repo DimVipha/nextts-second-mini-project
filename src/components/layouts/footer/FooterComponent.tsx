@@ -101,11 +101,6 @@ export default function FooterComponent() {
              {/* <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-4 " />  */}
             
         </div>
-        <div className="flex justify-center bg-[#8244FF] py-2 mt-4">
-            <span className="text-sm text-white roboto-regular sm:text-center dark:text-gray-400">© 2024 <a href="../index.html" className="hover:underline">Love Shop™</a>. All Rights Reserved.
-            </span>
-            
-        </div>
     </footer>
       
     </>
