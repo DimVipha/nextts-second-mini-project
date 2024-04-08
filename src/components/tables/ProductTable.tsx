@@ -70,7 +70,7 @@ export default function ProductTable() {
 			selector: (row): any => (
 				<div className="gap-2 flex">
 					<button
-						className="text-white bg-pink-500 px-2 py-3 rounded-lg font-semibold hover:bg-pink-600"
+						className="text-white bg-blue-800 px-3 py-3 rounded-lg font-semibold"
 						onClick={() => handleView(row)}>
 						View
 					</button>
@@ -89,7 +89,7 @@ export default function ProductTable() {
 					<button
 						className={` bg-red-500 text-white py-3 px-3 rounded-lg font-semibold  ${
 							row.seller === "Chhunhy Chhem"
-								? "bg-red-500 hover:bg-red-700"
+								? "bg-red-600 hover:bg-red-700"
 								: "bg-gray-300 text-black cursor-not-allowed"
 						}`}
 						onClick={() => {

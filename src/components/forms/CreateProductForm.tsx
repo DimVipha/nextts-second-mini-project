@@ -68,7 +68,7 @@ myHeaders.append("Cookie", "csrftoken=Up7Re2A1KCVJ7tdDYbD0k4VFDdfjzzeugrS6hOdNq9
   };
 
   return (
-    <div className="w-full mt-8 ml-72 rounded-lg pt-9 bg-blue-100 h-[600px]">
+    <div className="w-full mt-8 ml-72 rounded-lg pt-9 bg-gray-100 h-[600px]">
       <Formik
         onSubmit={(values: any, { setSubmitting, resetForm }) => {
           console.log(values);
@@ -164,7 +164,7 @@ myHeaders.append("Cookie", "csrftoken=Up7Re2A1KCVJ7tdDYbD0k4VFDdfjzzeugrS6hOdNq9
             <div>
               <button
                 type="submit"
-                className="w-full px-4 py-3 bg-pink-600 text-white rounded-md"
+                className="w-full px-4 py-3 bg-blue-800 text-white rounded-md"
                 disabled={isSubmitting}
               >
                 Create
